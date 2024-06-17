@@ -1,31 +1,61 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Sigmar+One&display=swap');
 
-img{
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
     width: 4%;
     height: auto;
 }
 
+header {
+    background-color: rgb(231, 231, 231);
+    padding: 20px;
+}
+
 h1 {
     font-family: 'honk';
-    color:rgb(7, 111, 78);
+    color: rgb(7, 111, 78);
     text-align: center;
 }
 
-h2{
+h2 {
     font-family: 'Sigmar one';
     color: rgb(112, 31, 31);
     font-size: 23px;
     text-align: center;
-}
-p {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    margin: 20px;
 }
 
 ul {
-    font-size: 20px;
+    margin: 10px 50px;
 }
-ol{
+
+ol {
+    margin: 10px 50px;
+}
+
+h4 {
     font-size: 20px;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(255, 233, 227);
+    padding: 30px;
+    font-size: 25px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+h4 a:hover {
+    margin: 10px;
+}
+
+p{
+    margin: 10px 35px;
 }
