@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Sigmar+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -44,8 +46,9 @@ h4 {
 
 footer {
     background-color: rgb(255, 233, 227);
-    padding: 30px;
+    padding: 20px;
     font-size: 25px;
+    bottom: 0%;
 }
 
 hr {
@@ -54,6 +57,13 @@ hr {
 
 h4 a:hover {
     margin: 10px;
+}
+h3 a{
+    display: inline-block;
+    color: rgb(216, 113, 39);
+    /* padding: 14px 20px; */
+    text-decoration: none;
+    font-family: 'Kanit';
 }
 
 p{
