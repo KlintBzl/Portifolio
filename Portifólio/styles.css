@@ -6,8 +6,8 @@
 }
 
 img {
-    width: 4%;
-    height: auto;
+    width: 45px;
+    height: 45px;
 }
 
 header {
@@ -58,4 +58,35 @@ h4 a:hover {
 
 p{
     margin: 10px 35px;
+}
+
+@media (max-width: 600px){
+    h1{
+        text-align: center;
+    }
+    header{
+        background-color: rgb(182, 182, 182);
+    }
+    footer{
+        position: fixed;
+    }
+    img{
+        width: 30px;
+        height: 30px;
+    }
+    p{
+        margin: 0px 10px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    header{
+        background-color: rgb(206, 206, 206);
+    }
+    footer{
+        bottom: 0%;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+    }
 }
