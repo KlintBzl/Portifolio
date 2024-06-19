@@ -28,7 +28,7 @@ h2 {
     color: rgb(112, 31, 31);
     font-size: 23px;
     text-align: center;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 ul {
@@ -48,7 +48,7 @@ footer {
     background-color: rgb(255, 233, 227);
     padding: 20px;
     font-size: 25px;
-    bottom: 0%;
+    margin: 10px 0;
 }
 
 hr {
@@ -58,12 +58,19 @@ hr {
 h4 a:hover {
     margin: 10px;
 }
+h4 a{
+    color: black;
+    text-decoration: none;
+}
 h3 a{
     display: inline-block;
     color: rgb(216, 113, 39);
     /* padding: 14px 20px; */
     text-decoration: none;
     font-family: 'Kanit';
+}
+h3{
+    margin: 5px 10px;
 }
 
 p{
