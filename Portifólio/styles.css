@@ -52,11 +52,12 @@ footer {
 }
 
 hr {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 h4 a:hover {
     margin: 10px;
+    background-color: rgb(202, 202, 202);
 }
 h4 a{
     color: black;
