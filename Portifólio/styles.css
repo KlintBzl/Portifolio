@@ -94,6 +94,10 @@ p{
 h5 p{
     color: white;
 }
+p a img{
+    width:25px;
+    height: 25px;
+}
 
 @media (max-width: 600px){
     h1{
@@ -122,7 +126,6 @@ h5 p{
     }
     h5 p{
         margin: 50px;
-    }
     }
     img{
         width: 40px;
