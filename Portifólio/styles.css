@@ -48,7 +48,7 @@ footer {
     background-color: rgb(255, 233, 227);
     padding: 20px;
     font-size: 25px;
-    margin: 10px 0;
+    margin-top: 10px;
     
 }
 h3 img{
@@ -61,7 +61,7 @@ h3 a img{
 }
 h6 p{
     color: rgb(255, 255, 255);
-    margin: 80px 0px ;
+    margin: 50px 0px ;
 }
 
 hr {
@@ -94,11 +94,15 @@ p{
 h5 p{
     color: white;
 }
-p a img{
+ p a img{
     width:25px;
     height: 25px;
 }
-
+body h5 img{
+    width: 10%;
+    height: 10%;
+    margin-left: 2%;
+}
 @media (max-width: 600px){
     h1{
         text-align: center;
